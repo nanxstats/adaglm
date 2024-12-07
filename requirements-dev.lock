@@ -10,6 +10,8 @@
 #   universal: false
 
 -e file:.
+iniconfig==2.0.0
+    # via pytest
 joblib==1.4.2
     # via scikit-learn
 llvmlite==0.43.0
@@ -23,6 +25,12 @@ numpy==2.0.2
     # via scikit-learn
     # via scipy
     # via skglm
+packaging==24.2
+    # via pytest
+pluggy==1.5.0
+    # via pytest
+pytest==8.3.4
+ruff==0.8.2
 scikit-learn==1.5.2
     # via skglm
 scipy==1.14.1
