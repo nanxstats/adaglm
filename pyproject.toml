@@ -5,9 +5,13 @@ description = "Add your description here"
 authors = [
     { name = "Nan Xiao", email = "me@nanx.me" }
 ]
-dependencies = []
+dependencies = [
+    "numba>=0.60.0",
+    "numpy>=2.0.0",
+    "skglm>=0.3.1",
+]
 readme = "README.md"
-requires-python = ">= 3.8"
+requires-python = ">= 3.10"
 
 [build-system]
 requires = ["hatchling"]

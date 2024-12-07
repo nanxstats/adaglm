@@ -10,3 +10,25 @@
 #   universal: false
 
 -e file:.
+joblib==1.4.2
+    # via scikit-learn
+llvmlite==0.43.0
+    # via numba
+numba==0.60.0
+    # via adaglm
+    # via skglm
+numpy==2.0.2
+    # via adaglm
+    # via numba
+    # via scikit-learn
+    # via scipy
+    # via skglm
+scikit-learn==1.5.2
+    # via skglm
+scipy==1.14.1
+    # via scikit-learn
+    # via skglm
+skglm==0.3.1
+    # via adaglm
+threadpoolctl==3.5.0
+    # via scikit-learn
